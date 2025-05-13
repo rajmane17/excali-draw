@@ -2,17 +2,17 @@
   "name": "@repo/backend-common",
   "version": "1.0.0",
   "description": "",
-  "main": "backend.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
   },
   "exports": {
     "./config": "./src/index.ts"
   },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

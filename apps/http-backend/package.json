@@ -9,10 +9,12 @@
     "dev": "pnpm run build && pnpm run start"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
     "@types/cookie-parser": "^1.4.8",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/jsonwebtoken": "^9.0.9",
+    "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^5.1.0",
@@ -21,10 +23,9 @@
   },
   "keywords": [],
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
     "@repo/backend-common": "workspace:*",
-    "@repo/db": "workspace:*",
-    "@repo/common": "workspace:*"
+    "@repo/common": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
   },
   "author": "",
   "license": "ISC"
