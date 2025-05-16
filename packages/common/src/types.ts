@@ -12,6 +12,7 @@ export const userSchema = z.object({
         "Password needs 1 upper, 1 lower, 1 digit, 1 special char"
       )
       .nonempty(),
+    avatar: z.string().optional()
 });
 
 export const signInSchema = z.object({

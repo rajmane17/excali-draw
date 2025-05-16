@@ -6,8 +6,8 @@ export interface User {
   userId: number
 }
 
-export interface parsedData {
+export interface parsedDataType {
   type: string,
-  roomId: string,
+  roomSlug: string,
   message?: string
 }
