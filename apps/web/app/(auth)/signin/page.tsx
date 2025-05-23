@@ -1,4 +1,4 @@
-import { AuthPage } from "../../../components/authPage";
+import { AuthPage } from "pages/user/AuthPage";
 
 const Page = () => {
     return <AuthPage isSigninPage={true}/>
